@@ -1,0 +1,528 @@
+body{
+    background-color: aliceblue;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    
+}
+
+.first-container{    
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2%;
+
+    
+}
+
+.arrow-back img{
+    float: left;
+    height: 50px;
+    width: 50px;
+    padding: 1.5%;
+
+}
+
+input[type="text"]{
+    width:500px;
+    flex: 1;
+    font-size: 18px;
+    padding: 5px;
+  }
+
+.overall-search{
+    position: relative;
+    margin-right: 50%;
+}
+
+.search-icon img{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    
+}
+
+.camera-icon img{
+    float: right;
+    height: 40px;
+    width: 40px;
+    right: -40px;
+    margin-right: 5%;
+    margin-top: -2.2%;
+    
+}
+
+.search-bar{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: -5%;
+    
+}
+
+.search{
+    font-size: small;
+    
+}
+
+
+.second-container{
+    display: flex;
+    margin-top: 3.5%;
+}
+
+.discount{
+    margin-left: 4%;
+}
+
+
+
+.oh-two{
+    margin-left: 1%;
+    background-color: blueviolet;
+    width: 3%;
+    height: 1%;
+    border-radius: 30% 30% 30% 30%;
+    outline:none;
+   
+}
+
+.two-four{
+    margin-left: 1%;
+    background-color: blueviolet;
+    width: 3%;
+    height: 1%;
+    border-radius: 30% 30% 30% 30%;
+    outline:none;
+   
+}
+
+.oh-nine{
+    margin-left: 1%;
+    background-color: blueviolet;
+    width: 3%;
+    height: 1%;
+    border-radius: 30% 30% 30% 30%;
+    outline:none;
+    
+}
+
+.space{
+    color:aliceblue;
+}
+
+.text{
+    color: white;
+    text-align: center; 
+}
+
+.third-container{
+    display: flex;
+    width: 200%;
+    margin-top: 10%;
+    margin-bottom: -1%;
+    aspect-ratio: 10/1;
+    object-fit: contain;
+    gap: 2%;
+    margin-left: 4%;
+    margin-top: 5%;
+    
+}
+
+.upper-bag{
+    background-color: dodgerblue;
+    font-size: x-large;
+    border-radius: 50px 50px 50px 50px;
+    height: 60px;
+    width: 190px;
+    text-align: center;
+    
+    
+}
+
+.shoes{
+    background-color: red;
+    font-size: x-large;
+    border-radius: 50px 50px 50px 50px;
+    height: 60px;
+    width: 190px;
+    text-align: center;
+    border-top: 10%;
+    vertical-align: text-top;
+    
+}
+
+.high-heels{
+    background-color: yellowgreen;
+    font-size: x-large;
+    border-radius: 50px 50px 50px 50px;
+    text-align: center;
+    height: 60px;
+    width: 200px;
+    
+}
+
+.watch-and-accessories{
+    background-color: palevioletred;
+    font-size: x-large;
+    border-radius: 50px 50px 50px 50px;
+    height: 60px;
+    width: 310px;
+    text-align: center;
+   
+}
+
+.dress{
+    background-color: lightseagreen;
+    font-size: x-large;
+    border-radius: 50px 50px 50px 50px;
+    height: 60px;
+    width: 200px;
+    text-align: center;
+    
+}
+
+.text-text-watch{
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+    margin-top: -1%;
+}
+
+.text-text{
+    text-align: center;
+    color: white;
+    padding-top: 7%;
+    margin-top: -1%;
+}
+
+.to-left img{
+    float: left;
+    height: 500px;
+    width: 500px;
+    margin-left: 20%;
+}
+
+.to-right img{
+    float: right;
+    height: 500px;
+    width:500px;
+    margin-left: 15%;
+}
+
+.fourth-container{
+    display: flex;
+    column-gap: 20%;
+    padding-top: 5%;
+    margin-bottom: auto;
+    margin-top: -15%;
+}
+
+.fifth-container{
+    display: flex;
+    margin-top: -12%;
+    font-size: x-large;
+    font-weight: 100;
+}
+
+.dust-jeans{
+    margin-left: 8%;  
+    margin-top: -1%; 
+    margin-bottom: -5%;
+    font-weight: 700;
+    font-size: 130%;
+}
+
+
+.love img{
+    height: 50px;
+    width: 50px;
+    margin-left: 570%;    
+}
+
+.dust-jeans-two{
+    margin-left: 34%;  
+    margin-top: -1%; 
+    font-weight: 700;
+    font-size: 130%;
+}
+
+
+.love-two img{
+    height: 50px;
+    width: 50px;
+    margin-left: 580%;      
+}
+
+.sec-2{
+    margin-left: 24%;
+}
+
+
+.sixth-container{
+    display: flex;
+    margin-top: -2%;
+    column-gap: 20%;
+    font-size: x-large;
+    font-weight: 100;
+    margin-left: 8%;
+    margin-top: -1%;
+}
+
+.price-tag{
+    display: flex;
+    margin-top: -2%;
+    column-gap: 20%;
+    font-size: larger;
+    font-weight: 100;
+    margin-left: 8%;
+
+}
+
+.rengit{
+    margin-top: -1%;
+    top: 50%;
+
+}
+
+.sekatung{
+    margin-left: 25%;
+    margin-top: -1%;
+
+}
+
+.price-1{
+    color: purple;
+    font-weight: 700;
+    font-size: xx-large;
+
+}
+
+.price-2{
+    margin-left: 20%;
+    color: purple;
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+.seventh-container{
+    margin-top: -4%;
+    display: flex;
+    column-gap: 20%
+
+}
+
+.to-the-right img{
+    float: right;
+    height: 500px;
+    width: 500px;
+    margin-left: 20%;
+
+}
+
+.to-the-left img{
+    float: left;
+    height: 500px;
+    width: 500px;
+    margin-left: 15%;
+
+}
+
+.eight-container{
+    display: flex;
+    margin-top: -2%;
+    font-size: x-large;
+    font-weight: 100;
+    margin-left: 5%;
+    margin-top: -1%;
+ 
+}
+
+.dust-jeans-zebra{
+    display: flex;
+    margin-top: -5%;
+    margin-left: 1.5%;
+    font-weight: 700;
+    font-size: 130%;
+}
+
+.dust-jeans-creamy-almond{
+    display: flex;
+    margin-left: 37.5%;
+    margin-top: -5%;
+    font-weight: 700;
+    font-size: 130%;
+}
+
+.dust-jeans-love-1 img{
+    height: 50px;
+    width: 50px;
+    margin-left: 550%;
+    margin-bottom: -100%;
+}
+
+.dust-jeans-love-2 img{
+    height: 50px;
+    width: 50px;
+    margin-left:550%;
+    margin-bottom: -100%;
+}
+
+.tenth-container{
+    display: flex;
+    margin-top: -2%;
+    column-gap: 20%;
+}
+
+.div-10{
+    margin-left: 6.5%;
+}
+
+.div-11{
+    margin-left: 22.5%;
+}
+
+.eleventh-container{
+    display: flex;
+    margin-top: -4%;
+    justify-content: space-between;
+}
+
+.picture-5 img{
+    height: 500px;
+    width: 500px;
+    margin-left: 15%;
+
+}
+
+.picture-6 img{
+    height: 500px;
+    width: 500px;
+    margin-left: -57%;
+}
+
+.twelveth-container{
+    display: flex;
+    margin-top: -2%;
+    font-size: x-large;
+    font-weight: 100;
+    margin-left: 5%;
+    margin-top: -1%;
+}
+
+.dust-jeans-love-11 img{
+    height: 50px;
+    width: 50px;
+    margin-left: 550%;
+    margin-bottom: 15%;
+    
+}
+
+.dust-jeans-love-22 img{
+    height: 50px;
+    width: 50px;
+    margin-left: 500%;
+}
+
+
+.dust-jeans-grey{
+    display: flex;
+    margin-top: -5%;
+    margin-left: 1.5%;
+    font-weight: 700;
+    font-size: 130%;
+}
+
+.dust-jeans-white{
+    display: flex;
+    margin-left: 41%;
+    margin-top: -5%;
+    font-weight: 700;
+    font-size: 130%;
+}
+
+.thirteenth-container{
+    display: flex;
+    margin-top: -2%;
+   
+}
+
+.div-111{
+    margin-left: 43%;
+
+}
+
+.footer{
+    display: flex;
+    background-color: blueviolet;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    margin-right: 1%;
+    margin-bottom: 0%;
+    border-radius: 0px 0px 50px 50px;
+}
+
+.home img{
+    height: 60px;
+    width: 60px;
+}
+
+.category img{
+    height: 60px;
+    width: 60px;
+}
+
+.lower-bag img{
+    height: 60px;
+    width: 60px;
+    background-color: blueviolet;
+}
+
+.wishlist img{
+    height: 60px;
+    width: 60px;
+}
+
+.account img{
+    height: 60px;
+    width: 60px;
+}
+
+.p1{
+    color: white;
+    font-size: larger;
+    font-weight: 100;
+    margin-top: 1%;
+    margin-left: 19%;
+}
+
+.p2{
+    color: white;
+    font-size: larger;
+    font-weight: 100;
+    margin-top: 1%;
+}
+
+.p3{
+    color: white;
+    background-color: blueviolet;
+    font-size: larger;
+    font-weight: 100;
+    margin-top: 1%;
+    margin-left: 30%;
+}
+
+.p4{
+    color: white;
+    font-size: larger;
+    font-weight: 100;
+    margin-top: 1%;
+    margin-left: 8%;
+}
+
+.p5{
+    color: white;
+    font-size: larger;
+    font-weight: 100;
+    margin-top: 1%;
+    margin-left: 15%;
+}
